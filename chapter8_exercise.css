@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main {
+	width: 960px;
+	padding: 50px 0;
+	margin: 0 auto;
+	background: #fff;
+
+}
+.list-box {
+	padding: 50px auto;
+}
+
+.list-text {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.list-text:nth-child(odd) {
+	background-color: #c0c0c0;
+}
+
+	.list-text:nth-child(1) {
+	}
+	.list-text:nth-child(2) {
+	}
+	.list-text:nth-child(3) {
+	}
+	.list-text:nth-child(4) {
+	}
+	.list-text:nth-child(5) {
+	}
+	.list-text:nth-child(6) {
+	}
+	.list-text:nth-child(7) {
+	}
+
+/* カラーボックス */
+.colorBOX {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 960px;
+	height: 680px;
+	background-color: #fff;
+}
+
+	.color-box {
+		float: left;
+		width: 30%;
+		height: 200px;
+		background: yellow;
+		margin-bottom: 40px;
+	}
+
+	.color-box:nth-child(-4n+13) {
+		background: orange;
+	}
+
+	.color-box:nth-not-child(3n) {
+
+	}
+
+	.color-box:nth-child(2),
+	.color-box:nth-child(5),
+	.color-box:nth-child(8) {
+		margin: 0 5%;
+	}
+
+	.color-box:nth-child(1) {
+	}
+	.color-box:nth-child(2) {
+	}
+	.color-box:nth-child(3) {
+	}
+	.color-box:nth-child(4) {
+	}
+	.color-box:nth-child(5) {
+	}
+	.color-box:nth-child(6) {
+	}
+	.color-box:nth-child(7) {
+	}
+	.color-box:nth-child(8) {
+	}
+	.color-box:nth-child(9) {
+	}
