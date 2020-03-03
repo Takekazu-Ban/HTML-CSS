@@ -5,17 +5,24 @@
 	color: #6c6b6b;
 }
 
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 .main {
 	position: relative;
 	width: 960px;
+	margin-top: 50px;
 	margin: 50px auto;
 	background: #fff;
 }
 
 .text-box {
-	border: solid #eee;
+	position: relative;
+	border: 1px solid #eee;
 	width: 300px;
-	border-width: 1px;
 	background: #fff;
 	float: left;
 }
@@ -27,26 +34,26 @@
 .text-img {
 	width: 280px;
 	height: 150px;
+	object-fit: cover;
+	object-position: 0% 96%;
 	margin: 9px;
 }
 
 .step {
 	position: absolute;
-	display: inline-block;
-	background: orange;
+	left: 0;
+	background: #ff9933;
 	color: #fff;
 	padding: 3px;
-	top: 0;
-	margin-top: 1px;
-}
+	}
 
 .title {
 	margin-left: 10px;
 	color: #000000;
-	line-height: 25px;
 }
 
 .text {
+	position: ;
 	margin: 10px;
 	color:  #000000;
 }
